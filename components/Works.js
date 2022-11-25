@@ -1,12 +1,12 @@
 
 import RickyMortyIMage from '../public/Images/rickMorty.jpg'
-import DictionaryImage from '../public/Images/DictionaryApp.png'
+import DictionaryImage from '../public/Images/dictionaryApp.png'
 import EcommerceAppImage from '../public/Images/Ecommerce.png'
 import WeatherAppImage from '../public/Images/weatherApp.png'
-import FigmaProjectImage from '../public/Images/FigmaProject.png'
-import ExercisesImage from '../public/Images/Exercises.jpg'
+import FigmaProjectImage from '../public/Images/figmaProject.png'
+import ExercisesImage from '../public/Images/exercises.jpg'
 import Image from "next/image";
-import styles from '../styles/home.module.css'
+import styles from '../styles/Home.module.css'
 
 const callouts = [
     {
