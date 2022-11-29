@@ -10,6 +10,11 @@
 }
 .span{
   color:#00ADB5;
+  
+}
+.span:hover{
+ @apply underline;
+  
 }
 .footer a {
   display: flex;
