@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       
-      <div className="mx-auto  mt-24 mb-24 flex min-h-full  py-4 sm:px-6 lg:px-8">
+      <div id='contact' className="mx-auto  mt-24 mb-24 flex min-h-full  py-4 sm:px-6 lg:px-8">
       
       <h2 className=" mx-auto  text-6xl font-bold tracking-tight text-white">
               Got a project in 
@@ -65,7 +65,7 @@ export default function Contact() {
                   type="text"
                   autoComplete="message"
                   required
-                  className="bg-gray-700 mt-4 h-72 mb-2 block p-4 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gray-600 mt-4 h-72 mb-2 block p-4 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="message"
 
                 />

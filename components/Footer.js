@@ -11,7 +11,7 @@ function classNames(...classes) {
 }
 export default function Footer(){
     return(
-        <div  className={styles.footer}>
+        <div  className={styles.footer} id='footer'>
          <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a

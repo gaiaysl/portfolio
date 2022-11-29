@@ -1,16 +1,16 @@
 
 export default function Designer() {
     return (
-      <div className="relative h-[640px]">
+      <div className=" mx-auto relative h-[640px]" id='home'>
        
-        <div className=" absulute pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+        <div className=" mx-auto absulute pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
          
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-            <div className="sm:max-w-lg">
-            <div className='absolute top-56 left'>
-        <img src="/Images/ok.png" alt=""/>
+            <div className="sm:max-w-lg bg-red-500">
+            <div className='absolute  top-56 left object-fill '>
+        <img src="/Images/ok.png" alt="" className="static "/>
         </div>
-        <div className='absolute left-40'>
+        <div className='absolute  left-40'>
            <h1 className=" font text-8xl font-bold tracking-tight text-white sm:text-7xl">
                 CREATIVE UI  
               </h1>
