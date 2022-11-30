@@ -10,13 +10,13 @@
           <img src='/Images/ok.png'className="h-56 w-12 sm:h-full sm:w-full"  />
           </div>
           <div className="flex flex-col justify-between ">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl ">CREATIVE WEBSITE </h1>
+          <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl ">CREATIVE WEBSITE </h1>
           <span className="text-4xl font-bold tracking-tight text-cyan-500 sm:text-5xl mb-14">DEVELOPER</span>
           
           </div>
         
           <div className="mt-10  flex flex-row gap-2 ">
-          <button class=" bg-cyan-500 hover:bg-cyan-700 transition-all text-white font-bold py-1 px-2 sm:py-2 sm:px-4 rounded-full">
+          <button class=" bg-cyan-500 hover:bg-cyan-700 transition-all text-white font-bold py-2 px-3 sm:py-2 sm:px-4 rounded-full">
   Hire me
 </button>
 <button class="bg-gray-700 hover:bg-gray-900 transition-all text-white font-bold px-2 py-1 sm:py-2 sm:px-4 rounded-full">

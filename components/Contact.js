@@ -22,7 +22,7 @@ export default function Contact() {
           <form className="" action="#" method="POST">
             <input type="hidden" name="remember" defaultValue="true" />
             
-            <div className=" mx-auto justify-center items-center sm:flex  sm:mb-5  " >
+            <div className=" w-72 sm:flex  sm:mb-5  " >
           
               <div className='m-4 sm:-m-2 '>
                 <label className="  text-white text-xs font-semibold "  >
@@ -34,7 +34,7 @@ export default function Contact() {
                   type="text"
                   autoComplete="text"
                   required
-                  className=" bg-gray-700 sm:mt-3 relative block w-full appearance-none rounded-none rounded-t-md border border-gray-700 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  className=" bg-gray-700 sm:mt-3 w-72 appearance-none rounded-none rounded-t-md border border-gray-700 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                   placeholder="Name"
                 />
               </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="bg-gray-700 sm:mt-3  relative block w-full appearance-none rounded-none rounded-t-md border border-gray-700 px-2 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  className="bg-gray-700 sm:mt-3 w-72  rounded-t-md border border-gray-700 px-2 py-2 text-gray-900 placeholder-gray-500 focus:z-10  focus:outline-none focus:ring-indigo-500 sm:text-sm"
                   placeholder="Email"
 
                 />
@@ -65,7 +65,7 @@ export default function Contact() {
                   type="text"
                   autoComplete="message"
                   required
-                  className="bg-gray-700 sm:bg-gray-700 mt-4 sm:h-72 sm:w-96 h-24 mb-2 block p-4 mr-4 w-96 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gray-700 w-72 sm:bg-gray-700 mt-4 sm:h-72 sm:w-96 h-24 mb-2 block p-4 mr-4  text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="message"
 
                 />
@@ -74,7 +74,7 @@ export default function Contact() {
             <div className='m-4'>
               <button
                 type="submit"
-                className="group relative flex  justify-center rounded-md border border-transparent bg-cyan-500 sm:py-2 py-1 px-4 text-sm font-medium text-white hover:bg-cyan-700 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className=" flex  justify-center rounded-md border border-transparent bg-cyan-500 sm:py-2 py-1 px-4 text-sm font-medium text-white hover:bg-cyan-700 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                
