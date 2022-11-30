@@ -12,7 +12,7 @@ I am a student at Istanbul University Computer Programming Department. The proje
         <a href='https://github.com/gaiaysl' className="underline hover:text-cyan-500"> my github account</a>
         </div>
       </div>
-      <div className="  mr-6">
+      <div className="  mr-8">
         <img src='/Images/man-background.png' className="h-full  object-cover object-center"/>
       </div>
       
