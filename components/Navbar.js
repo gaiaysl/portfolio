@@ -6,6 +6,7 @@ const navigation = [
  
   { name: 'Home', href: '#home', current: false },
   { name: 'About Me', href:'#aboutme', current: false },
+  { name: 'Works', href:'#works', current: false },
   { name: 'Contact', href: '#contact', current: false },
 ]
 
@@ -31,7 +32,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="  text-white text-whiteflex font-medium flex-shrink-0 items-center">
+              <div className="  text-white text-white flex font-medium flex-shrink-0 items-center ">
                  SaulDesign
                  
                 </div>
