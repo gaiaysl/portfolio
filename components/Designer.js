@@ -2,27 +2,29 @@
 
   export default function Designer(){
     return( 
-      <div id='home' className=" mb-12 sm:mt-48 sm:mb-48 mx-auto flex flex-col sm:flex-row sm:justify-evenly ml-20  " >
+      <div id='home' className=" mb-12 sm:mt-48 sm:mb-48 flex flex-col sm:flex-row sm:justify-evenly ml-20  " >
         
         <div className=" mt-24  ">
-          <div className=" ml-24 ">
-          <h1 className=" font text-5xl font-bold tracking-tight text-white sm:text-5xl">CREATIVE UI </h1>
+          <div className="">
+          <div className="absolute -ml-14 sm:-ml-20 sm:mt-12 mt-2 sm:mt-2">
+          <img src='/Images/ok.png'className="h-56 w-12 sm:h-full sm:w-full"  />
+          </div>
+          <div className="flex flex-col justify-between ">
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl ">CREATIVE WEBSITE </h1>
+          <span className="text-4xl font-bold tracking-tight text-cyan-500 sm:text-5xl mb-14">DEVELOPER</span>
           
-          <span className='  absolute sm:text-6xl font text-5xl font-bold tracking-tight text-cyan-500'>DESIGNER</span>
           </div>
-          <div className=" ">
-          <img src='/Images/ok.png'  />
-          </div>
-        <div className=" -mt-12 ml-24 ">
-          <button class=" mr-4 bg-cyan-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        
+          <div className="mt-10  flex flex-row gap-2 ">
+          <button class=" bg-cyan-500 hover:bg-blue-700 text-white font-bold py-1 px-2 sm:py-2 sm:px-4 rounded-full">
   Hire me
 </button>
-<button class="bg-gray-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+<button class="bg-gray-700 hover:bg-blue-700 text-white font-bold px-2 py-1 sm:py-2 sm:px-4 rounded-full">
   Download CV
 </button> </div>
-
+</div>
           </div>
-          <div className=" m-4" >
+          <div className=" m-4 mr-10" >
           <img src='/Images/designer-group.png' className="h-full w-full object-cover object-center"/>
           </div>
         </div>

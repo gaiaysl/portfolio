@@ -4,12 +4,12 @@ export default function Contact() {
   return (
     <>
       
-      <div id='contact' className="mx-auto  mt-24 mb-24 flex min-h-full sm:py-4 sm:px-4 lg:px-6 ">
-      
-      <h2 className="sm:mr-24 sm:mt-4 sm:mx-auto sm:text-5xl text-4xl font-bold tracking-tight text-white">
+      <div id='contact' className=" mx-auto flex-col sm:flex-row  mt-24 mb-24 flex min-h-full sm:py-4 sm:px-4 lg:px-6 ">
+    
+      <h2 className=" m-6 sm:mr-24 sm:mt-4 sm:mx-auto sm:text-5xl text-4xl font-bold tracking-tight text-white">
               Got a project in 
               <span className={styles.span}> mind?</span>
-           <div className='sm:mt-12'>
+           <div className='sm:mt-12 m-10 -ml-4'>
               <img src='/Images/contact.png' className=" object-cover object-center"/>
               </div>
              
@@ -22,9 +22,9 @@ export default function Contact() {
           <form className="" action="#" method="POST">
             <input type="hidden" name="remember" defaultValue="true" />
             
-            <div className="sm:flex sm:gap-4 sm:mb-5  " >
+            <div className=" mx-auto justify-center items-center flex  sm:flex sm:gap-4 sm:mb-5  " >
           
-              <div>
+              <div className='m-4'>
                 <label className="  text-white text-xs font-semibold "  >
                   Your name
                 </label>
@@ -48,14 +48,14 @@ export default function Contact() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="bg-gray-700 mt-3  relative block w-full appearance-none rounded-none rounded-t-md border border-gray-700 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  className="bg-gray-700  m-2 relative block w-full appearance-none rounded-none rounded-t-md border border-gray-700 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                   placeholder="Email"
 
                 />
               </div>
               
             </div>
-            <div>
+            <div className='m-4'>
                 <label htmlFor="message" className="text-white text-xs font-semibold" >
                   Your message
                 </label>
@@ -71,7 +71,7 @@ export default function Contact() {
                 />
               </div>
               
-            <div>
+            <div className='m-4'>
               <button
                 type="submit"
                 className="group relative flex  justify-center rounded-md border border-transparent bg-cyan-500 sm:py-2 py-1 sm:px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
