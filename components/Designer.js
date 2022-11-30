@@ -25,7 +25,7 @@
 </button> </div>
 </div>
           </div>
-          <div className=" m-4 mr-10" >
+          <div className=" mr-16" >
           <img src='/Images/designer-group.png' className="h-full w-full object-cover object-center"/>
           </div>
         </div>
