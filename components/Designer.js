@@ -16,11 +16,12 @@
           </div>
         
           <div className="mt-10  flex flex-row gap-2 ">
-          <button class=" bg-cyan-500 hover:bg-blue-700 text-white font-bold py-1 px-2 sm:py-2 sm:px-4 rounded-full">
+          <button class=" bg-cyan-500 hover:bg-cyan-700 transition-all text-white font-bold py-1 px-2 sm:py-2 sm:px-4 rounded-full">
   Hire me
 </button>
-<button class="bg-gray-700 hover:bg-blue-700 text-white font-bold px-2 py-1 sm:py-2 sm:px-4 rounded-full">
-  Download CV
+<button class="bg-gray-700 hover:bg-gray-900 transition-all text-white font-bold px-2 py-1 sm:py-2 sm:px-4 rounded-full">
+<a href="/Images/gayeyanardag.pdf" download>Download CV</a>
+  
 </button> </div>
 </div>
           </div>
