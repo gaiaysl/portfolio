@@ -6,7 +6,7 @@ export default function AboutMe(){
         <h1 className="mb-4 font text-4xl font-bold tracking-tight text-white sm:text-6xl">About <span className='text-cyan-500'>me</span></h1>
        <div className="break-words overflow-hidden ">
         <p >
-        I've 2 years of experience in frontend developer field.
+        I have 2 years of experience in frontend developer field.
 I am a student at Istanbul University Computer Programming Department. The projects I have developed are available on my github account.
         </p>
         <a href='https://github.com/gaiaysl' className="underline hover:text-cyan-500"> my github account</a>
