@@ -32,7 +32,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="text-white flex font-medium flex-shrink-0  hidden ">
+              <div className="text-white flex font-medium flex-shrink-0  hidden sm:block ">
                  GaiaDesign
                 </div>
               <div className="flex flex-1 items-center  sm:items-stretch sm:justify-end">
