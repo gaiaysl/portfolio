@@ -63,7 +63,7 @@ export default function Contact() {
                 
                   autoComplete="text"
                   required
-                  className=" bg-gray-700 sm:mt-3 w-72 sm:w-48 appearance-none rounded-none rounded-t-md border border-gray-700 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  className="bg-gray-300 dark:bg-gray-700 border-gray-300 dark:border-gray-700 sm:mt-3 w-72 sm:w-48 appearance-none rounded-none rounded-t-md border  px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                   placeholder="email"
                 />
               </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                 
                   autoComplete="email"
                   required
-                  className="bg-gray-700 sm:mt-3 w-72 sm:w-48  rounded-t-md border border-gray-700 px-2 py-2 text-gray-900  placeholder-gray-500 focus:z-10  focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  className="bg-gray-300 dark:bg-gray-700 border-gray-300 dark:border-gray-700 sm:mt-3 w-72 sm:w-48  rounded-t-md border  px-2 py-2 text-gray-900  placeholder-gray-500 focus:z-10  focus:outline-none focus:ring-indigo-500 sm:text-sm"
                   placeholder="Email"
 
                 />
@@ -97,7 +97,7 @@ export default function Contact() {
                   autoComplete="message"
                   rows="4"
                   required
-                  className="bg-gray-700 w-72 sm:-ml-5 sm:bg-gray-700 mt-4 sm:h-72 sm:w-96 h-24 mb-2 block p-4 mr-4  text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gray-300 dark:bg-gray-700 border-gray-300 dark:border-gray-700 w-72 sm:-ml-5 sm:bg-gray-700 mt-4 sm:h-72 sm:w-96 h-24 mb-2 block p-4 mr-4  text-sm text-gray-900  rounded-lg border  focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="message"
 
                 />
