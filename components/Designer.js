@@ -18,10 +18,11 @@
         
           <div className="mt-10  flex flex-row gap-2 ">
           <button class=" bg-cyan-500 hover:bg-cyan-700 transition-all text-white font-bold py-2 px-3 sm:py-2 sm:px-4 rounded-full">
-  Hire me
+          <a href="https://www.linkedin.com/in/gaye-y/" target="_blank" rel="noreferrer" >Hire me</a>
+  
 </button>
 <button class="bg-gray-700 hover:bg-gray-900 transition-all text-white font-bold px-2 py-1 sm:py-2 sm:px-4 rounded-full">
-<a href="/Images/gayeyanardag.pdf" download>Download CV</a>
+<a href="/gaye-yanardag-cv.pdf" download>Download CV</a>
   
 </button> </div>
 </div>
