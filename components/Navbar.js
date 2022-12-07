@@ -32,7 +32,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="text-white flex font-medium flex-shrink-0  hidden sm:block ">
+              <div className="dark:text-white text-gray-600 flex font-medium flex-shrink-0  hidden sm:block ">
                  GaiaDesign
                 </div>
               <div className="flex flex-1 items-center  sm:items-stretch sm:justify-end">
@@ -44,7 +44,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames (
-                          item.current ? 'bg-gray-600 text-white' : 'text-gray-300 transition-all hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-600 ' : 'dark:text-white text-gray-600 transition-all hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-small '
                         )}
                         aria-current={item.current ? 'page' : undefined}

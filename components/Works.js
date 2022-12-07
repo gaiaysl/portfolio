@@ -59,7 +59,7 @@ const callouts = [
 
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-            <h2 className="font text-4xl font-bold tracking-tight text-white sm:text-6xl">My recent <span className={styles.span}>works</span></h2>
+            <h2 className="font text-4xl font-bold tracking-tight dark:text-white text-gray-600 sm:text-6xl">My recent <span className={styles.span}>works</span></h2>
   
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3  lg:gap-10  lg:space-y-0 ">
               {callouts.map((callout) => (

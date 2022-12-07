@@ -3,7 +3,7 @@ export default function AboutMe(){
   return(
     <div id='aboutme' className=" text-white sm:mx-auto flex sm:mb-40 mb-20 sm:max-w-7xl sm:px-4 sm:px-6 sm:flex-row lg:px-8 flex-col ml-10  " >
       <div  className=" h-72 w-72  mr-48 sm:w-96 ">
-        <h1 className="mb-4 font text-4xl  font-bold tracking-tight text-white sm:text-6xl">About <span className='text-cyan-500'>me</span></h1>
+        <h1 className="mb-4 font text-4xl  font-bold tracking-tight dark:text-white text-gray-600 sm:text-6xl">About <span className='text-cyan-500'>me</span></h1>
        <div className="break-words overflow-hidden h-48 ">
         <p >
         I have 2 years of experience in frontend developer field.

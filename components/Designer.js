@@ -1,8 +1,9 @@
 
 
   export default function Designer(){
+    
     return( 
-      <div id='home' className=" mb-12 sm:mt-48 sm:mb-48 flex flex-col sm:flex-row sm:justify-evenly ml-20  " >
+      <div id='home' className=" mb-12 sm:mt-48 sm:mb-48 flex flex-col sm:flex-row sm:justify-evenly ml-20   " >
         
         <div className=" mt-24  ">
           <div className="">
@@ -10,7 +11,7 @@
           <img src='/Images/ok.png'className="h-56 w-12 sm:h-full sm:w-full"  />
           </div>
           <div className="flex flex-col justify-between ">
-          <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl ">CREATIVE WEBSITE </h1>
+          <h1 className="text-3xl font-bold tracking-tight dark:text-white text-gray-600 sm:text-5xl ">CREATIVE WEBSITE</h1>
           <span className="text-4xl font-bold tracking-tight text-cyan-500 sm:text-5xl mb-14">DEVELOPER</span>
           
           </div>

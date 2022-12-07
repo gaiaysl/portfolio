@@ -5,11 +5,13 @@ import AboutMe from '../components/AboutMe'
 import Works from '../components/Works'
 import Contact from '../components/Contact'
 
+
+
 export default function Home() {
   return (
-    <Layout >
+    <Layout  >
    
-     <Designer/>
+     <Designer />
   <AboutMe/>
             <Works/>
             <Contact/>
